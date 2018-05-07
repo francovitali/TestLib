@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2043
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestLib", "TestLib\TestLib.csproj", "{DE87E93E-3E6B-4259-97F9-B719AE5B0E19}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestLib", "TestLib\TestLib.csproj", "{DE87E93E-3E6B-4259-97F9-B719AE5B0E19}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestLib.Tests", "TestLib.Tests\TestLib.Tests.csproj", "{072CC167-877B-4592-88A7-948FA620BCB1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SpecFlow", "SpecFlow", "{22B27DC5-AE8D-4A6A-B2C4-CCB255DABEA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpecFlowTests", "SpecFlowTests\SpecFlowTests.csproj", "{1529DB8D-1DF7-4937-986A-FC275857D350}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,9 +25,16 @@ Global
 		{072CC167-877B-4592-88A7-948FA620BCB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{072CC167-877B-4592-88A7-948FA620BCB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{072CC167-877B-4592-88A7-948FA620BCB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1529DB8D-1DF7-4937-986A-FC275857D350}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1529DB8D-1DF7-4937-986A-FC275857D350}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1529DB8D-1DF7-4937-986A-FC275857D350}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1529DB8D-1DF7-4937-986A-FC275857D350}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1529DB8D-1DF7-4937-986A-FC275857D350} = {22B27DC5-AE8D-4A6A-B2C4-CCB255DABEA3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B9217264-476E-4B5E-8210-EDAA365893D5}
